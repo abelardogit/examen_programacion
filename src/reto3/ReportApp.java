@@ -1,3 +1,7 @@
+/*
+EDITA ESTA CLASE. AÑADE CUANTOS MÉTODOS Y OBJETOS
+CONSIDERES NECESARIO
+ */
 package reto3;
 
 public class ReportApp {

@@ -1,3 +1,7 @@
+/*
+NO EDITES ESTA CLASE
+ */
+
 package reto1;
 
 import java.util.HashMap;

@@ -1,3 +1,7 @@
+/*
+NO EDITES ESTA CLASE
+ */
+
 package reto3;
 
 import common.Appetizer;

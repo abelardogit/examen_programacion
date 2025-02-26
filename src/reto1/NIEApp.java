@@ -1,3 +1,6 @@
+/*
+NO EDITES ESTA CLASE
+ */
 package reto1;
 
 public class NIEApp {

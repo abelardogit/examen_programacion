@@ -1,3 +1,7 @@
+/*
+NO EDITES ESTE RECORD
+ */
+
 package common;
 
 // Aperitivo

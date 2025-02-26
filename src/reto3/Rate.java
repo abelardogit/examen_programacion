@@ -1,3 +1,6 @@
+/*
+NO EDITES ESTE RECORD
+ */
 package reto3;
 
 import common.Appetizer;
