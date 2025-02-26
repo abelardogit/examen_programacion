@@ -8,8 +8,15 @@ import java.util.HashMap;
 
 public class NIEDB {
     private static HashMap<Integer, Character> db = null;
+    private static HashMap<Character, Integer> firstLetter = null;
     private static final Character WRONG_DATA = '-';
+    private static final Integer WRONG_FIRST_LETTER = -1;
     static {
+        firstLetter = new HashMap<>();
+        firstLetter.put('X', 0);
+        firstLetter.put('Y', 1);
+        firstLetter.put('Z', 2);
+
         db = new HashMap<>();
         db.put(0, 'T');
         db.put(1, 'R');
@@ -34,6 +41,14 @@ public class NIEDB {
         db.put(20, 'C');
         db.put(21, 'K');
         db.put(22, 'E');
+    }
+
+    public static Integer getValueFirstLetter(char aFirstLetter) {
+        if (!firstLetter.containsKey(aFirstLetter)) {
+            return WRONG_FIRST_LETTER;
+        }
+
+        return firstLetter.get(aFirstLetter);
     }
 
     public static Character getLetter(int number) {
