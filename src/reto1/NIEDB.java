@@ -44,11 +44,11 @@ public class NIEDB {
     }
 
     public static Integer getValueFirstLetter(char aFirstLetter) {
-        if (!firstLetter.containsKey(aFirstLetter)) {
+        char upperFirstLetter = Character.toUpperCase(aFirstLetter);
+
+        if (!firstLetter.containsKey(upperFirstLetter)) {
             return WRONG_FIRST_LETTER;
         }
-
-        char upperFirstLetter = Character.toUpperCase(aFirstLetter);
 
         return firstLetter.get(upperFirstLetter);
     }
