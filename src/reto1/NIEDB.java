@@ -48,7 +48,9 @@ public class NIEDB {
             return WRONG_FIRST_LETTER;
         }
 
-        return firstLetter.get(aFirstLetter);
+        char upperFirstLetter = Character.toUpperCase(aFirstLetter);
+
+        return firstLetter.get(upperFirstLetter);
     }
 
     public static Character getLetter(int number) {
