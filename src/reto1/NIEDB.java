@@ -9,7 +9,7 @@ import java.util.HashMap;
 public class NIEDB {
     private static HashMap<Integer, Character> db = null;
     private static HashMap<Character, Integer> firstLetter = null;
-    private static final Character WRONG_DATA = '-';
+    private static final Character WRONG_REMAINDER = '-';
     private static final Integer WRONG_FIRST_LETTER = -1;
     static {
         firstLetter = new HashMap<>();
@@ -55,7 +55,7 @@ public class NIEDB {
 
     public static Character getLetter(int number) {
         if (!db.containsKey(number)) {
-            return WRONG_DATA;
+            return WRONG_REMAINDER;
         }
 
         return db.get(number);
