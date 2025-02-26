@@ -1,0 +1,4 @@
+- El reto 2 consiste en modelar la habitación (Room).
+- La clase se encuentra en el paquete common.
+- Recuerda que has de modelar la habitación normal y prémium acorde
+con las restricciones del enunciado.
